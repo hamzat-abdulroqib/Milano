@@ -7,7 +7,7 @@ import Menu from "../Component/Menu";
 import MilaonVenueSection from "../Component/MilanoVenueSection";
 // import Newsletter from "./Component/Newsletter";
 import TattuSections from "../Component/TattuSections";
-import TatuHero from "../Component/tatuHero";
+import TatuHero from "../Component/TatuHero";
 
 import YinYangSection from "../Component/YinYangSection";
 
