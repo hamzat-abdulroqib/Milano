@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Footer from "../Component/Footer";
+import VenueSplit from "../Component/VenueSpilt";
 
 // Placeholder images - replace these with your actual image assets
 const bgImages = {
@@ -66,15 +67,15 @@ const MilanoMenu = () => {
               onMouseEnter={() => setCurrentBg(bgImages[item.imageKey])}
               onMouseLeave={() => setCurrentBg(bgImages.default)}
             >
-              <span className="font-serif text-4xl font-light text-gray-300 transition-all duration-300 group-hover:text-white md:text-6xl lg:text-7xl">
+              <span className="font-serif text-2xl font-light group-hover:font-bold text-gray-200 transition-all duration-300 group-hover:text-white md:text-3xl lg:text-4xl">
                 {item.title}
               </span>
             </a>
           ))}
         </main>
-
-        <Footer />
       </div>
+      <VenueSplit />
+      <Footer />
     </div>
   );
 };

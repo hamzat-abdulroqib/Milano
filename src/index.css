@@ -57,3 +57,14 @@
     font-family: "Montserrat", sans-serif;
   }
 }
+
+.venue {
+  @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700&display=swap");
+
+  .font-serif-display {
+    font-family: "Playfair Display", serif;
+  }
+  .font-sans-display {
+    font-family: "Lato", sans-serif;
+  }
+}
